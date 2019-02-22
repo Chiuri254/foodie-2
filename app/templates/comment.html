@@ -2,6 +2,11 @@
 {% import 'bootstrap/wtf.html' as wtf %}
 {% import 'macros.html' as macro %}
 
+{% block styles%}
+    {{ super() }}
+    <link rel="stylesheet" href="{{url_for('static',filename='css/comment.css')}}">
+{% endblock %}
+
 {% block content %}
 <div class="container">
   <div class="row">

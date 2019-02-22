@@ -39,7 +39,7 @@ def options():
     else:
 
         all_int_comms = Intcom.get_all_comms()
-        random = requests.get('https://www.food2fork.com/api/search?key=7e71bd44dcf56c231b336f76201f7b47&q=chicken').json()
+        random = requests.get('https://www.food2fork.com/api/search?key=20f622f65686631876726fade51e81c7&q=chicken').json()
         return render_template("allfoods.html", intial_form = intial_form, allcom = all_int_comms,random = random)
 
 @main.route('/reply/<int:id>',methods = ['GET','POST'])
@@ -68,5 +68,5 @@ def test(search_food):
     '''
     View function to display the search results
     '''
-    random = requests.get('https://www.food2fork.com/api/search?key=7e71bd44dcf56c231b336f76201f7b47&q='+search_food).json()
+    random = requests.get('https://www.food2fork.com/api/search?key=20f622f65686631876726fade51e81c7&q='+search_food).json()
     return render_template('test.html',random = random)

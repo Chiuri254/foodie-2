@@ -1,202 +1,276 @@
 body{
-    height: 100%;
-    margin: 0;
-    font: 400 15px/1.8 "Lato";
-    font-style: sans-serif;
-    color: #777;
-    background-color: black;
-  }
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato";
+  font-style: sans-serif;
+  color: #777;
+  background-color: black;
+}
 
 .bgimg-1,.bgimg-2, .bgimg-3 , .bgimg-4{
-    position: relative;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 0%;
-    margin: 0%;
-   }
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0%;
+  margin: 0%;
+ }
 
-    .bgimg-1{
-        background-image:url("https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-HD-Pictures-Food-PIC-WPD006582.jpg");
-        min-height: 1000px;
-    }
-    .bgimg-2 {
-        background-image: url("http://files.vividscreen.info/soft/046792795361be30b349c70bf44eeeca/Italian-Pasta-Recipe-1920x1200.jpg");
-        min-height: 400px;
-       }
-    .bgimg-3 {
-        background-image: url("https://media.hungryforever.com/wp-content/uploads/2017/05/30151340/veg-recipe.jpg");
-        min-height: 400px;
-       }
-    .bgimg-4 {
-        background-image: url("http://www.supasitthaikitchen.com/wp-content/uploads/2015/11/personal-chef-NYC-Thai-Personal-chef-NYC-Thai-cooking-classes-NYC-Wallpaper.jpg");
-        min-height: 700px;
-       }
+  .bgimg-1{
+      background-image:url("https://wallpaper.wiki/wp-content/uploads/2017/04/wallpaper.wiki-HD-Pictures-Food-PIC-WPD006582.jpg");
+      min-height: 1000px;
+  }
+  .bgimg-2 {
+      background-image: url("http://files.vividscreen.info/soft/046792795361be30b349c70bf44eeeca/Italian-Pasta-Recipe-1920x1200.jpg");
+      min-height: 400px;
+     }
+  .bgimg-3 {
+      background-image: url("https://media.hungryforever.com/wp-content/uploads/2017/05/30151340/veg-recipe.jpg");
+      min-height: 400px;
+     }
+  .bgimg-4 {
+      background-image: url("http://www.supasitthaikitchen.com/wp-content/uploads/2015/11/personal-chef-NYC-Thai-Personal-chef-NYC-Thai-cooking-classes-NYC-Wallpaper.jpg");
+      min-height: 700px;
+     }
 
 .caption {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000;
-    font-size: 30px;
-  }
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 30px;
+}
 
-  .border{
-    background-color:transparent;
-    font-size:25px;
-    color: #f7f7f7;
-  }
-  .caption span.border {
-    background-color: #111;
-    color: #fff;
-    padding: 18px;
-    font-size: 25px;
-    letter-spacing: 10px;
-  }
+.border{
+  background-color:transparent;
+  font-size:25px;
+  color: #f7f7f7;
+}
+.caption span.border {
+  background-color: black;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
 
-  h3{
-    text-align: center;
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    font: 25px "Lato";
-    font-style: sans-serif;
-    color: rgba(27, 29, 232);
+.blog-summary h3{
+  text-align: center;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 25px "Lato";
+  font-style: sans-serif;
+  color:red;
 
-  }
+}
 
-   .blog-summary{
-    color:#FFF;
-    background-color:black;
-    text-align:center;
-    padding:50px 80px;
-    text-align: justify;
-    position:relative;
-  }
-
-  #blog-topics{
-    color:black;
-    background-color:aqua;
-  }
-
-
+ .blog-summary{
+  color:#FFF;
+  background-color:black;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+  position:relative;
+}
 
 
 #titlenav{
-  font-family: 'Courier New', Courier, monospace;
-  color:red;
-  font-size: 28px;
+font-family: 'Courier New', Courier, monospace;
+color:red;
+font-size: 28px;
 }
 #nav{
-  background-color:black;
-  color:red;
+background-color:black;
+color:red;
 }
 
 
 
 .loginbox {
-  width: 450px;
-  height: 850px;
-  background-color: #fff;
-  opacity: 0.8;
+width: 450px;
+height: 850px;
+background-color: #fff;
+opacity: 0.8;
+color: #000;
+top: 5%;
+margin-bottom: 20px;
+left: 15%;
+position: absolute;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.29);
+align-items: center;
+transform: translate()-50%, -50%;
+box-sizing: border-box;
+padding: 70px 30px;
+
+}
+
+ #blog-header{
+  color:white;
+  background-color:black;
+  opacity: 0.7;
+}
+
+.loginbox h1{
+ font-size:60px;
+}
+.loginbox p{
+  font-size: 25px;
+}
+
+section{
+  text-align:center;
+   color:black;
+   
+}
+.footer #button{
+  width:35px;
+  height:35px;
+  border: white 12px solid;
+  border-radius:35px;
+  margin:0 auto;
+  position:relative;
+  -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.footer #button:hover{
+  width:35px;
+  height:35px;
+  border: #3A3A3A 12px solid;
+  -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+  position:relative;
+}
+.footer {
+  bottom:0;
+  left:0;
+  position:fixed;
+    width: 100%;
+    height: 2em;
+    overflow:hidden;
+    margin:0 auto;
+  -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+  z-index:999;
+}
+.footer:hover {
+  -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+  height: 10em;
+}
+.footer #container{
+  margin-top:5px;
+  width:100%;
+height:100%;
+  position:relative;
+  top:0;
+  left:0;
+  background:black;
+}
+.footer #cont{
+  position:relative;
+  top:-45px;
+  right:190px;
+  width:150px;
+  height:auto;
+  margin:0 auto;
+}
+.footer_center{
+  width:500px;
+  float:left;
+  text-align:center;
+}
+.footer h3{
+  font-family: 'Helvetica';
+  font-size: 30px;
+  font-weight: 100;
+  margin-top:70px;
+  margin-left:40px;
+  color: red;
+}
+
+
+
+
+button {
+  width: 70%;
+  border-radius: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  border: none;
+  outline: none;
+  background-color: #00dc65;
+  font-size: 18px;
+  color: #fff;
+ 
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #ef6c00;
   color: #000;
-  top: 5%;
-  margin-bottom: 20px;
-  left: 15%;
-  position: absolute;
-  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.29);
-  align-items: center;
-  transform: translate()-50%, -50%;
-  box-sizing: border-box;
-  padding: 70px 30px;
+}
 
- }
 
-   #blog-header{
-    color:white;
-    background-color:black;
-    opacity: 0.7;
-  }
 
-  section{
-    text-align:center;
-     color:black;
-  }
-  .footer #button{
-    width:35px;
-    height:35px;
-    border: #727172 12px solid;
-    border-radius:35px;
-    margin:0 auto;
-    position:relative;
-    -webkit-transition: all 1s ease;
-      -moz-transition: all 1s ease;
-      -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-      transition: all 1s ease;
-  }
-  .footer #button:hover{
-    width:35px;
-    height:35px;
-    border: #3A3A3A 12px solid;
-    -webkit-transition: all 1s ease;
-      -moz-transition: all 1s ease;
-      -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-      transition: all 1s ease;
-    position:relative;
-  }
-  .footer {
-    bottom:0;
-    left:0;
-    position:fixed;
-      width: 100%;
-      height: 2em;
-      overflow:hidden;
-      margin:0 auto;
-    -webkit-transition: all 1s ease;
-      -moz-transition: all 1s ease;
-      -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-      transition: all 1s ease;
-    z-index:999;
-  }
-  .footer:hover {
-    -webkit-transition: all 1s ease;
-      -moz-transition: all 1s ease;
-      -o-transition: all 1s ease;
-      -ms-transition: all 1s ease;
-      transition: all 1s ease;
-    height: 10em;
-  }
-  .footer #container{
-    margin-top:5px;
-    width:100%;
-  height:100%;
-    position:relative;
-    top:0;
-    left:0;
-    background:white;
-  }
-  .footer #cont{
-    position:relative;
-    top:-45px;
-    right:190px;
-    width:150px;
-    height:auto;
-    margin:0 auto;
-  }
-  .footer_center{
-    width:500px;
-    float:left;
-    text-align:center;
-  }
-  .footer h3{
-    font-family: 'Helvetica';
-    font-size: 30px;
-    font-weight: 100;
-    margin-top:70px;
-    margin-left:40px;
-  }
+
+.chip {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  color:white;
+  
+}
+
+.chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+#blog-header button {
+  width: 70%;
+  border-radius: 20px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  border: none;
+  outline: none;
+  background-color: red;
+  font-size: 18px;
+  color: black;
+}
+
+#blog-header button:hover {
+  cursor: pointer;
+  background-color: green;
+  color: #000;
+}

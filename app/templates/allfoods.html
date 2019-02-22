@@ -1,17 +1,25 @@
 {% extends 'base.html'%}
 {% import 'macros.html' as macro%}
 {% import 'bootstrap/wtf.html' as wtf%}
+{% block styles%}
+    {{ super() }}
+    <link rel="stylesheet" href="{{url_for('static',filename='css/allfooods.css')}}">
+{% endblock %}
+
 
 {% block content %}
+<div class="allfoods">
 
 <div class="container">
   <div class="row">
-    <div class="col-md-3">
-    <form>
+
+    <div class="col-md-3" id="searchbar">
+    <form class="form-wrapper">
         <input type="text" name="food_query" placeholder="Search for a Recipe" class="form-control">
         <input type="submit" value="Submit" class="btn btn-default mvbtn">
     </form>
     </div>
+    
     <div class="col-md-5">
 
     </div>
@@ -21,13 +29,17 @@
 </div>
 
 <div class="row">
-  <div class="col-md-3">
+
+<div class="col-md-3" id="displayfood">
 
     <br>
     <ul>
       {{ macro.displayFood(random)}}
     </ul>
-  </div>
+
+</div>
+
+
   <div class="col-md-5">
 
     <br>
@@ -35,12 +47,16 @@
   </div>
 
   <div class="col-md-4">
+  <!-- <div class="loginbox" id="signupg">-->
+  <div class="feedback" id="signupg">
 
     {{wtf.quick_form(intial_form)}}
     <br>
     {{macro.displayComm(allcom)}}
   </div>
+  </div>
 
+</div>
 </div>
 
 {% endblock%}
